@@ -36,7 +36,7 @@ while 1:
         if g<a or g>b:
             raise ValueError
     except ValueError:
-        print("You must input a single integer number between ", a, "and ", b)
+        print("You must input a single integer number between ", a, " and ", b)
     else:
         cnt +=1
         if g == N:
